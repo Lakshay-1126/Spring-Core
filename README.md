@@ -27,7 +27,7 @@ This project is ideal for developers learning Spring or preparing for Java inter
 
 ## 📂 Project Structure
 
-spring-core-tutorial/
+'''spring-core-tutorial/
 ├── src/main/java/com/example/springcore/
 │ ├── config/
 │ ├── model/
@@ -36,7 +36,7 @@ spring-core-tutorial/
 ├── src/main/resources/
 │ ├── beans.xml
 │ └── application.properties
-└── README.md
+└── README.md'''
 
 
 ---
