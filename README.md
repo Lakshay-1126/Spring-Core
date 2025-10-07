@@ -66,4 +66,4 @@ spring-core-tutorial/
 
 1. Clone this repository  
    ```bash
-   git clone https://github.com/Lakshay-1126/Spring-Core.git
+   https://github.com/Lakshay-1126/Spring-Core
