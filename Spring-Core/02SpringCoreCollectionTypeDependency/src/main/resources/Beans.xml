@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Employee bean definition -->
+    <bean id="aa" class="my.app.Employee">
+        <property name="ename" value="Lakshay"/>
+        <property name="esal" value="10000000"/>
+        
+        <property name="eaddress">
+            <set>
+                <value>Jaipur</value>
+                <value>Ajmer</value>
+            </set>
+        </property>
+        
+        <property name="edesigation" value="Software Developer"/>
+        
+        <property name="ephone">
+            <list>
+                <value>8107062381</value>
+            </list>
+        </property>
+    </bean>
+</beans>
