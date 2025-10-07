@@ -27,4 +27,42 @@ This project is ideal for developers learning Spring or preparing for Java inter
 
 ## 📂 Project Structure
 
+```text
+spring-core-tutorial/
+├── src/main/java/com/example/springcore/
+│   ├── config/
+│   ├── model/
+│   ├── service/
+│   ├── MainApp.java
+├── src/main/resources/
+│   ├── beans.xml
+│   └── application.properties
+└── README.md
 
+---
+
+## 🧠 Concepts Covered
+
+- What is **IoC (Inversion of Control)**  
+- **Dependency Injection** (Constructor & Setter)  
+- **BeanFactory vs ApplicationContext**  
+- **Bean Lifecycle Methods**  
+- **Autowiring Modes**  
+- **Spring Expression Language (SpEL)**  
+
+---
+
+## 💻 Technologies Used
+
+- ☕ **Java **  
+- 🌼 **Spring Framework (Core Module)**  
+- 🧰 **Maven / Gradle**  
+- 🧑‍💻 **IntelliJ IDEA / Eclipse**  
+
+---
+
+## 🧩 How to Run
+
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/Lakshay-1126/Spring-Core.git
