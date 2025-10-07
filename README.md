@@ -38,6 +38,7 @@ spring-core-tutorial/
 │   ├── beans.xml
 │   └── application.properties
 └── README.md
+```
 
 ---
 
