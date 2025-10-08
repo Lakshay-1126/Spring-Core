@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Employee bean definition -->
+    <bean id="rob" class="com.app.lakshay.Repository">
+    
+    <property name="entity">
+    <value>A</value>
+    </property>
+    
+    </bean>
+    <bean id="sob" class="com.app.lakshay.Service">
+    
+    <property name="r1">
+     <ref bean="rob"/>
+    </property>
+    </bean>
+</beans>
