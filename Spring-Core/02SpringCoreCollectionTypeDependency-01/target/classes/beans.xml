@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Employee bean definition -->
+    
+    <bean id="aa" class="com.app.lakshay.Student">
+    
+    <property name="name">
+    <value>Lakshay</value>
+    </property>
+    
+    <property name="phones">
+    <list>
+    <value>8107062381</value>
+    <value>9351738099</value>
+    </list>
+    </property>
+    
+    <property name="address">
+    <set>
+    <value>Jaipur</value>
+    <value>Ajmer</value>
+    </set>
+    </property>
+    
+    <property name="courses">
+    <map>
+    <entry key="Java Full STack" value="12 Months"></entry>
+    <entry key="flutter" value="1 year"></entry>
+    </map>
+    </property>
+    
+    </bean>
+</beans>
